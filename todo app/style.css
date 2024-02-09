@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+    color:white;
+}
+
+body {
+    background: url('bg2.jpg') no-repeat center ;
+    /* position:absolute;
+    height: 100%;
+width: 100%; */
+}
+
+#container{
+
+    margin: auto auto;
+  width: 700px;
+  height: 500px;
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  justify-content:start;
+  border: 1px solid black;
+  padding:auto auto;
+  border-radius: 20px;
+    background-color: white;
+  overflow: hidden;
+    
+}
+
+input{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    margin:10px 10px;
+    padding: 5px 20px;
+    
+}
+button{
+   background-color: white;
+     border-radius:5px  ;
+     border: 1px solid black;
+     font-size:20px;
+     padding: 5px 20px;
+     margin: 10px 10px;
+     
+}
+::placeholder {
+    color: black;
+    
+  }
+
+  button:hover{
+    cursor: pointer;
+    background-color: #0CAFFF;
+    color: white;
+  }
+
+  
+
+#list{
+    /* position: relative; */
+   align-self:flex-start;
+
+   /* margin:0px auto; */
+
+}  
+
+ul{
+    list-style-type: none;
+    font-size: 20px;
+    margin: 0px 50px 30px  50px;
+    
+
+}
+
+li{
+      background-color: #d3d3d3; 
+      margin:10px;
+      padding: 5px 5px;
+      width:auto;
+      height: 20px;
+      border: 1px solid black;
+       border-radius:5px ;
+
+}
+li:hover {
+  cursor: pointer;  
+     
+}
+
+.clicked{
+    text-decoration: line-through;   
+}
+
+ul li span{
+    margin-left:200px;
+    margin-right: auto;
+    padding: 5px;
+   
+
+
+}
